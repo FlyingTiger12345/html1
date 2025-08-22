@@ -1,0 +1,14 @@
+<DOCTYPE! html> 
+<html>
+    <head>
+        <title>Formatting</title></head>
+        <body>
+            <b>JIN</b>
+            <br><strong>JIN MAT</strong>
+            <br><i>Philippines</i>
+            <br><eM>Bacoor</eM>
+            <br><mark>Kai Sotto</mark>
+<br><del>Kobe paras</del>
+<br>H<sub>2</sub>O
+<br>x<sup>3</sup>
+        </body></html></DOCTYPE>
