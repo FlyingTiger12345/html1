@@ -1,0 +1,8 @@
+<DOCTYPE! html>
+    <html>
+
+<head><title>Hyperlink</title></head>
+<body><h1>Hyperlinks</h1>
+<a href="https://www.mcdonalds.com.ph/">mcdonalds</a>
+</body>
+    </html>

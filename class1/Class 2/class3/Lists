@@ -1,0 +1,24 @@
+<DOCTYPE! html>
+    <html>
+
+<head><title>Lists</title></head>
+<body>
+    <h2>Lists</h2>
+    <h2>Ordered Lists</h2>
+    <ol type="I">
+        <li>Milk</li>
+        <li>Eggs</li>
+        <li>Batter</li>
+    </ol>
+    <h2>Unordered Lists</h2>
+    <ul type="square">
+        <li>Pan</li>
+        <li>Spatula</li>
+        <li>Stove</li>
+    </ul>
+    <h2>Description Lists</h2>
+    <dl></dl>
+        <dt>Tomato</dt>
+        <dd>An Red Shiny fruit.</dd>
+    </dl>
+</body> </html>

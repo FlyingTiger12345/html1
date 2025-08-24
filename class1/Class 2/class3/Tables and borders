@@ -1,0 +1,39 @@
+<DOCTYPE! html>
+    <html>
+
+<head><title>Lists</title></head>
+<body>
+    <h2>Movie Table</h2>
+    <table border = "5" height="200px" width="100%" bgcolor = "purple">
+<tr>
+    <th>Movie</th>
+    <th>Character</th>
+    <th>Background</th>
+</tr>
+<tr align ="center">
+    <td bgcolor="yellow">Shooting Stars</td>
+    <td bgcolor="yellow">Lebron James</td>
+    <td bgcolor="yellow">Nba</td>
+</tr>
+    <tr align ="center">
+    <td bgcolor="green">Rise</td>
+    <td bgcolor="green">Giannis Antetokounmpo</td>
+    <td bgcolor="green">Greece</td>
+</tr>
+</table>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </table>
