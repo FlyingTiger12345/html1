@@ -1,0 +1,57 @@
+<DOCTYPE! html>
+    <html>
+
+<head><title>Lists</title></head>
+<body>
+    <h2>Movie Table</h2>
+    <table border = "5" height="200px" width="100%" bgcolor = "purple">
+<tr>
+    <th>Movie</th>
+    <th>Character</th>
+    <th>Background</th>
+</tr>
+<tr align ="center">
+    <td bgcolor="yellow">Shooting Stars</td>
+    <td bgcolor="yellow">Lebron James</td>
+    <td bgcolor="yellow">Nba</td>
+</tr>
+    <tr align ="center">
+    <td bgcolor="green">Rise</td>
+    <td bgcolor="green">Giannis Antetokounmpo</td>
+    <td bgcolor="green">Greece</td>
+</tr>
+</table>
+</body>
+</html><DOCTYPE! html>
+    <html>
+
+<head><title>Lists</title></head>
+<body>
+    <h2>Lists</h2>
+    <h2>Ordered Lists</h2>
+    <ol type="I">
+        <li>Lebron James</li>
+        <li>Luka Doncic</li>
+        <li>Anthony Davis</li>
+    </ol>
+    <h2>Unordered Lists</h2>
+    <ul type="square">
+        <li>Khris Middleton
+        </li>
+        <li>Giannis Antetokounmpo</li>
+        <li>Thon Maker</li>
+    </ul>
+    <h2>Description Lists</h2>
+    <dl></dl>
+        <dt>Kyrie Irving</dt>
+        <dd>Best Ball Handler OAT.</dd>
+    </dl>
+</body> </html>
+<DOCTYPE! html>
+    <html>
+
+<head><title>Hyperlink</title></head>
+<body><h1>Hyperlinks</h1>
+<a href="https://www.espn.com/nba/">NBA</a>
+</body>
+    </html>
