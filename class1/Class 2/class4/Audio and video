@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Image And Audio </title> </head>
+    <body>
+    <h1> Image and Audio </h1>
+    <audio controls>
+        <source src="jazz-background-music-379027.mp3" type="audio/mp3">
+        This type of file is not supported.
+        </audio>
+        <video controls>
+        <source src="145298-786403405_tiny.mp4" type="Video/mp4">
+        This type of file is not supported.
+        </video>
+    </body>
+</html>
+
+
+
+        

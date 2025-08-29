@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image </title>
+    </head>
+        <body>
+            <h1> Image Big smile</h1>
+            <img src= "1234.jpg" width="200px" height="200px" border="2">
+        </body>
+        </html>
