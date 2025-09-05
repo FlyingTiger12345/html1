@@ -1,0 +1,30 @@
+<DOCTYPE! html>
+<html>
+    <head>
+        <title> SEMANTIC ELEMENTS </title> </head>
+        <body> <h3>Casa De San Migueel Montessori School</h3>
+            <header id="Head">
+                <nav>
+                    <ul>
+                        <li><a href="#Head">Head</a></li>
+                            <li><a href="#Article">Article</a></li>
+                                <li><a href="#Footer">Foot</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <section id="Article">
+                <h3>Casa De San Migueel Montessori School</h3>
+                <article>🏫 Casa De San Miguel Montessori School (CDSMMS)
+📍 Established in 2003 in Bacoor, Cavite | DepEd Recognized
+📚 Private, Non-Sectarian | Open to Foreign Students
+</p></article>
+<aside><p>📞 Contact us: (046) 417-5029 | 0998-536-4536
+📧 admin@cdsmms.edu.ph
+📌 Enroll now!</p></aside>
+<figure><img src="512954561_1293905649408355_6350976707815006011_n.jpg" width="500px" height="500px">
+    <img src="513826178_1293904089408511_1344671861127768792_n.jpg" width="500px" height="500px">
+    </figure>
+    <footer id="Footer">
+        <center>Jin Matthew D. Vasquez</center>
+
+    </footer>

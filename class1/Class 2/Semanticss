@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> SEMANTIC ELEMENTS </title> </head>
+        <body> <h3>FlightReacts</h3>
+            <header id="Head">
+                <nav>
+                    <ul>
+                        <li><a href="#Head">Head</a></li>
+                            <li><a href="#Article">Article</a></li>
+                                <li><a href="#Footer">Foot</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <section id="Article">
+                <h3>FlightReacts</h3>
+                <article>FlightReacts is an American YouTuber, Twitch streamer, and entertainer from West Palm Beach, Florida. He’s well known for his hilarious reaction videos.</p></article>
+<aside><p>Flight fancies NBA basketball and everything that goes with it. He hooped in high school and still does 1v1 against other celebrities.</p></aside>
+<figure><img src="1234.jpg" width="500px" height="500px">
+    <img src="flightreacts.gif" width="500px" height="500px">
+    </figure>
+    <footer id="Footer">
+        <center>FlightReacts</center>
+      <audio controls>
+        <source src="jazz-background-music-379027.mp3" type="audio/mp3">
+        This type of file is not supported.
+        </audio>
+        <video controls>
+        <source src="145298-786403405_tiny.mp4" type="Video/mp4">
+        This type of file is not supported.
+
+    </footer>

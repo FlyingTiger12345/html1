@@ -1,0 +1,49 @@
+<DOCTYPE! html>
+    <html>
+
+<head><title>Lists</title></head>
+<body>
+    <h2>Movie Table</h2>
+    <table border = "5" height="200px" width="100%" bgcolor = "purple">
+<tr>
+    <th>Movie</th>
+    <th>Character</th>
+    <th>Background</th>
+</tr>
+<tr align ="center">
+    <td bgcolor="green">Indiana Jones</td>
+    <td bgcolor="green">Harrison Ford</td>
+    <td bgcolor="green">Egypt</td>
+</tr>
+    <tr align ="center">
+    <td bgcolor="green">Top Gun Maverick</td>
+    <td bgcolor="green">Tom Cruise</td>
+    <td bgcolor="green">America</td>
+</tr>
+<tr align ="center">
+    <td bgcolor="green">Morbius</td>
+    <td bgcolor="green">Jared Leto</td>
+    <td bgcolor="green">Greece</td>
+</tr>
+<tr align ="center">
+    <td bgcolor="green">Hustle</td>
+    <td bgcolor="green">Juancho Hernangomez</td>
+    <td bgcolor="green">Spain(Later america)</td>
+</tr>
+</table>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </table>
