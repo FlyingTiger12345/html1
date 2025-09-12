@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+
+        <title>BACKGROUND</title>
+        <style>
+            @keyframes example{
+                0%{background-color: brown;}
+                 25%{background-color: rgb(255, 238, 0);}
+                  50%{background-color: rgb(93, 0, 243);}
+                   100%{background-color: rgb(16, 250, 8);}
+                
+            }
+            body{
+                 
+                
+                
+                background-color: brown;
+                animation-name: example;
+                animation-duration: 10s;
+                animation-iteration-count: infinite;
+            }
+            #what{
+                color: blue;
+            }
+
+
+
+            </style>
+    </head>
+    <body>
+        <h1 id="what"> BACKGROUND </h1>

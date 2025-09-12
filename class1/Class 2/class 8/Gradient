@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>GRADIENT</title>
+        <style>
+            #grad1{
+                size: 500px;
+                height: 500px;
+              
+                border-color: blue;
+                color: black;
+                background: #00b7ff;
+background: radial-gradient(circle, rgba(0, 183, 255, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+
+            }
+            #grad2{
+            size: 500px;
+                height: 500px;
+                border-color: blue;
+                color: cyan;
+                background: #06003d;
+background: #020024;
+background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+            }
+            body{
+               background-color: black;
+            }
+
+
+
+
+
+
+
+
+</style>
+</head>
+<body>
+    <h3 id="grad1">Gradient 1</h3>
+    <h3 id="grad2">Gradient 2</h3>
