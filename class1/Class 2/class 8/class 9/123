@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Typography</title>
+        </head>
+        <style>
+            #six{
+                size: 40px;
+                color: red;
+                text-shadow: 4px 4px 1px black;
+            }
+             #seven{
+                box-shadow: 4px 4px 1px blue;
+                border: 3px solid black;
+                size: 40px;
+                color: blue;
+                text-shadow: 4px 4px 1px lightblue;
+            }
+            </style>
+            <body>
+                <h1 id="six">Text Shadow</h1>
+                <br>
+                <h1 id="seven">Text Shadow</h1>
+                

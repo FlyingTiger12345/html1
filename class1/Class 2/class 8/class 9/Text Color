@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Typography</title>
+        </head>
+        <style>
+            body{
+                background-image: url(1234.jpg);
+            }
+            #six{
+                font-size: 50px;
+                font-style: italic;
+                color:rgb(2, 255, 2);
+            }
+            #seven{
+                font-size: 25px;
+                font-family: 'Courier New', Courier, monospace;
+                color:red;
+               
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </style>
+            <body>
+                <h1 id="six">Flight</h1>
+                <h4 id="seven">Kimani Tariq Kamiru-White goes by his stage name FlightReact is a well-known American singer and YouTuber.
+
+He gained notoriety when he began posting basketball-related videos to YouTube.
+
+FlightReacts is well known for his reaction videos to NBA games on his Twitch and YouTube channels.
+
+He currently runs two different YouTube channels.
+
+He used to work in the fast-food industry before starting to utilize social media.
+
+He pursues his music career actively as well.
+
+In recent years, he has started posting his music videos on social media.
+
+He recently launched his beloved, globally acclaimed album “Walking W” on social media.</h4>
+            </body>
+        </html>

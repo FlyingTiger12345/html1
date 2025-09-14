@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Typography</title>
+        </head>
+        <style>
+            body{
+                background-image: url(1234.jpg);
+            }
+            #three{
+                background-color: brown;
+                color: black;
+                height: 40px;
+                width: 40px;
+            }
+            #two{
+                background-color: brown;
+                color: black;
+                height: 40px;
+                width: 40px;
+                transform: rotateX(180deg);
+                
+
+            }
+
+
+        </style>
+        <body>
+            <h1 id="three">FlightReacts</h1><br>
+
+            <h1 id="two">FlightReacts</h1>
+        </body>
+        </html>
