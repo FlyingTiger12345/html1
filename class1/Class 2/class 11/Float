@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Float
+
+        </title>
+        <style>
+            img#Goat{
+                float: left;
+
+            }
+             img#King{
+                float: right;
+                margin-right: 1px;
+
+            }
+           #seven{
+text-align: center;
+            }
+            
+        </style>
+        <body>
+            <h1>FLOAT</h1>
+            <img id="Goat" src="lebron.jpg" width="200px" height="200px" border = 5>
+             <img id="King" src="lebron.jpg" width="200px" height="200px" border = 5>
+            <br><h1 id="seven">LeBron James</h1>
+            <p><h1>LeBron James is an American professional basketball player, widely regarded as one of the greatest basketball players of all time, known for his exceptional skills, versatility, and numerous accolades throughout his career.</h1></p>
+
+        </body>
