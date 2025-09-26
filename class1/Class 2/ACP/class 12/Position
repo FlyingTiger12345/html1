@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Position</title>
+        <style>
+            #relative{
+                position: relative;
+                color: red;
+                border: solid black;
+                background-color: black;
+                height: 100px;
+                width: 200px;
+            top: 50px ;}
+
+                #fixed{
+                position: fixed;
+                color: blue;
+                border: solid black;
+                background-color: black;
+                height: 100px;
+                width: 200px;
+            bottom: 200px}
+
+                #static{
+                position: static;
+                color: green;
+                border: solid black;
+                background-color: black;
+                height: 100px;
+                width: 200px;
+            bottom: 100px;}
+
+            #absolute{
+                position: absolute;
+                color: blue;
+                border: solid blue;
+                
+                height: 100px;
+                width: 200px;
+            bottom: 100px;}
+            #sticky{
+                position: sticky;
+                color: indigo;
+                border: solid black;
+                background-color: black;
+                height: 100px;
+                width: 200px;
+            top: 50px;}
+                
+                
+
+
+           
+
+
+
+
+
+
+
+
+
+
+</style>
+    </head>
+    <body>
+        <p id="static">Static</p>
+        <p id="relative">Relative</p>
+        <p id="fixed">fixed</p>
+        Parent Absolute
+        <h1 id="absolute">Absolute</h1>
+        <h1 id="sticky">Sticky</h1>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        </body>
+        </html>
