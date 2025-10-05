@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Selectors
+
+        </title>
+        <style>
+            input[type="text"]{
+                border: 2px solid blueviolet;
+
+            }
+             input[type="password"]{
+                border: 10px solid honeydew;
+
+            }
+            ul>li{
+                font-family: 'Courier New', Courier, monospace;
+                color: green;
+                
+            }
+            h1+p{
+                color: brown;
+                size: 10000px;
+                
+            }
+            a:hover{
+                font-size: 20px;
+                color: brown;
+            }
+            li:nth-child(3){
+                background-color: black;
+                size: 100px;
+                
+            }
+          li::before{
+            content: "🍊🍉";
+          }
+          a::after{
+            content: "🍊🍉";
+          }
+          p::first-letter{
+            font-size: 200%;
+            color: aquamarine
+            ;
+          }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
+    </head>
+    <body>
+        <input type="text"> <br><br>
+        <input type="password">
+        <ul>Green
+            <li>vegetable</li>
+            <li>grass</li>
+            <li>brocolli</li>
+        </ul>
+        <h1>Fruits</h1>
+            <p>Fruits are a diverse and nutritious food group, encompassing thousands of varieties that offer a wide range of flavors, textures, and health benefits.</p>
+            <p>Fruits Are Delicious.</p>
+
+            <a href="#">Fruits</a>
