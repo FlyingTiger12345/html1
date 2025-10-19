@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+        
+        <h2 id="result1"></h2>
+        <h2 id="result2"></h2>
+<h2 id="result3"></h2>
+<h2 id="result4"></h2>
+        <script>
+             tos = 67 //statement1
+             document.getElementById("result1").innerHTML = "tos+=100 ="  + (tos+=100)
+             document.getElementById("result2").innerHTML = "tos-=100 ="  + (tos-=100)
+             document.getElementById("result3").innerHTML = "tos/=100 ="  + (tos/=100)
+
+             document.getElementById("result4").innerHTML = "tos*=100 ="  + (tos*=100)
+
+
+            </script>
+    </body>
