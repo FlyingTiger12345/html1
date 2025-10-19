@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <h2 id="CALCULATOR"></h2>
+        
+        <h2 id="result10"></h2>
+        <h2 id="result20"></h2>
+<h2 id="result30"></h2>
+<h2 id="result40"></h2>
+        <script>
+            document.getElementById("CALCULATOR").innerHTML = "CALCULATOR"
+             NUMBER = 69 //statement1
+             document.getElementById("result10").innerHTML = "GOODNUMBER+=69 ="  + (NUMBER+=67)
+             document.getElementById("result20").innerHTML = "GOODNUMBER-=69 ="  + (NUMBER-=67)
+             document.getElementById("result30").innerHTML = "GOODNUMBER/=69 ="  + (NUMBER/=41)
+
+             document.getElementById("result40").innerHTML = "GOODNUMBER*=69 ="  + (NUMBER*=41)
+
+
+            </script>
+    </body>
