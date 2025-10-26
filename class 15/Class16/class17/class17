@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Javascript</title>
+    </head>
+    <body>
+        <div id="container">
+            <div id="res"></div>
+        <div id="res1"></div>
+        <div id="res2"></div>
+        <div id="res3"></div>
+        </div>
+    </body>
+    <script>
+        var str1 = "Hello"
+        document.getElementById("res").innerHTML = str1.toUpperCase()
+        document.getElementById("res1").innerHTML = str1.startsWith("W")
+        document.getElementById("res2").innerHTML = str1.toLowerCase()
+        var str2 = "Before"
+  var detect = new RegExp("Before")
+  var yes = detect.test(str2)
+  document.getElementById("res3").innerHTML = yes
+    </script>

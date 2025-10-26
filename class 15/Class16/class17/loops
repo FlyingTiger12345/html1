@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Javascript</title>
+    </head>
+    <body>
+        <div id="container">
+            <div id="res"></div>
+        <div id="res1"></div>
+        <div id="res2"></div>
+        <div id="res3"></div>
+        </div>
+    </body>
+    <script>
+        var animals = ["Tomato" , "Salad" , "Egg" , "Fish"]
+        var L
+        yes = ""
+        for (let L = 0; L < animals.length; L++) {
+            yes =  yes + animals [L] + "<br>";
+            
+        }
+        document.getElementById("res").innerHTML = yes
+        </script>
