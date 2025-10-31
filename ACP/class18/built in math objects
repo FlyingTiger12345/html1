@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Javascript</title>
+    </head>
+    <body>
+        <div id="container">
+            <div id="res"></div>
+        <div id="res1"></div>
+        <div id="res2"></div>
+        <div id="res3"></div>
+        </div>
+    </body>
+    <script>
+      
+        document.getElementById("res").innerHTML = "the  absolute number is " + Math.abs(0.5)
+        document.getElementById("res1").innerHTML =  "the  tan value is " + Math.asin (-1)
+         document.getElementById("res2").innerHTML =  " the  sin number is " +  Math.atan (99)
+          document.getElementById("res3").innerHTML =  " the  cos value is " + Math.acos (-1)
+        </script>
+            
