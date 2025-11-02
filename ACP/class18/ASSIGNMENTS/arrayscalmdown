@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Javascript</title>
+    </head>
+    <body>
+        <div id="container">
+            <div id="res"></div>
+        <div id="res1"></div>
+        <div id="res2"></div>
+        <div id="res3"></div>
+        </div>
+    
+    <script>
+ var object = {
+      name: ['JohnPork', 'BabyJohnPork', 'YoungJohnPork'],
+      age: ['67', '14', '41']
+    }
+
+    document.getElementById("res").innerHTML = "My name is " + object.name[2]
+    document.getElementById("res1").innerHTML = "I am " + object.age[2] + " years old."
+  </script>
+</body>
+            
