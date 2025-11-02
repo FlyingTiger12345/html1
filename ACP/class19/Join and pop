@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Javascript</title>
+    </head>
+    <body>
+        <div id="container">
+            <div id="res"></div>
+        <h1 id="res1"></h1>
+        <div id="res2"></div>
+        <div id="res3"></div>
+        </div>
+    <script>
+        var vegetable = ["tomato", "Jackfruit", "hamburger"]
+        var fruits = ["Chips", "Coke", "Meat"]
+
+    document.getElementById("res1").innerHTML = vegetable.join("#");
+    fruits.pop();
+    document.getElementById("res2").innerHTML = fruits;
+
+    </script>
+    </body>
+    </html>
+    

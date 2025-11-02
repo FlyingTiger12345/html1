@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+               
+                background-image: url(maxresdefault.jpg);
+                text-align: center;
+            }
+            h1{
+                color: greenyellow;
+            }
+        </style>
+        <title>Javascript</title>
+    </head>
+    <body>
+        <div id="container">
+            <h1 id="res"></h1>
+        <h1 id="res1"></h1>
+        <h1 id="res2"></h1>
+        <h1 id="res3"></h1>
+        </div>
+    <script>
+        function addition (a,b){
+           return a + b
+        }
+        function subdivision (a,b){
+           return a / b
+        }
+         function multiplication (a,b){
+           return a * b
+        }
+        function average (a,b){
+           return addition(a,b)/2
+        }
+        document.getElementById("res").innerHTML = " the number is "+addition(67,41)
+        document.getElementById("res1").innerHTML = " the alphabet is "+subdivision(67,41)
+        document.getElementById("res2").innerHTML = " the symbol is "+multiplication(67,41)
+        document.getElementById("res3").innerHTML = " the answer is "+average(67,41)
+        </script>
+    </body>
+
