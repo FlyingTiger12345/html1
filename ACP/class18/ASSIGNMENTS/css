@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS</title>
+        <style>
+            p{
+                color:blue;
+font-size: 100px;
+            }
+            #a{
+                color: green;
+                font-size: 100px;
+            }
+            .Class3{
+                background-image: url(maxresdefault.jpg);
+            }
+            *{
+                background-image: url(maxresdefault.jpg);
+            }
+            h1,p,div,h2{
+              
+              
+            }
+    
+        </style>
+        <link rel = "stylesheet" href = "EXTERNAL.css">
+    </head>
+    <body>
+       <h2 class="Class3" style="color: black; font-size: 100px;">Inline style</h2>
+
+        
+        <div class="Class3">External Style</div>
+        <p class="Class3">Internal Style</p>
+        <h1 id="a" class="Class3">Id Selector</h1>
+        </body>
+        </html>

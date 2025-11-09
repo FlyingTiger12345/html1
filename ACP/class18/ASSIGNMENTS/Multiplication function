@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Javascript</title>
+</head>
+<body>
+    <div id="container">
+        <div id="res"></div>
+        <div id="res1"></div>
+        <div id="res2"></div>
+        <div id="res3"></div>
+        <button onclick="generate()">Generate number</button>
+    </div>
+
+    <script>
+        function generate() {
+            var no = ""       
+            var temp = 0     
+
+            for (var yes = 0; yes <= 10; yes++) {
+                var randomNumber = Math.round(Math.random() * 100)
+                temp += randomNumber      
+                no += randomNumber + "<br>"
+            }
+
+            
+            document.getElementById("res1").innerHTML = no
+            document.getElementById("res2").innerHTML = "Sum: " + temp
+            document.getElementById("res3").innerHTML = "Average: " + (temp / 11).toFixed(2)
+        }
+    </script>
+</body>
+</html>
