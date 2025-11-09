@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Javascript</title>
+    </head>
+    <body>
+        <div id="container">
+            <h1 id="res"></h1>
+        <h1 id="res1"></h1>
+        <h1 id="res2"></h1>
+        <h1 id="res3"></h1>
+        </div>
+    </body>
+    <script>
+       var q = 10
+       var w = 67
+       var e = 67
+       var r = null
+       var t = undefined
+       document.getElementById("res1").innerHTML = "q is equal to w: " + (q==w)
+       document.getElementById("res").innerHTML = "w is equal to e: " + (e==w)
+       document.getElementById("res3").innerHTML = "value of r: " + (r)
+       document.getElementById("res2").innerHTML = "value of t: " + (t)
+       </script>

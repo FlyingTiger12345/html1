@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Javascript</title>
+    </head>
+    <body>
+        <div id="container">
+            <h1 id="res"></h1>
+        <h1 id="res1"></h1>
+        <h1 id="res2"></h1>
+        <h1 id="res3"></h1>
+        </div>
+    </body>
+    <script>
+   var yes = new Date()
+   var no = yes.getHours()
+
+   if (no<10)
+
+   {weather = "Good Morning"
+    }
+else if (no<20)
+{weather = "Good day"
+    }
+    else{
+        weather = "Good night"
+    }
+    document.getElementById("res1").innerHTML = "time of day is: " + (no)  +  weather
+    </script>
