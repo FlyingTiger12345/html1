@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Javascript</title>
+    </head>
+    <body>
+        <div id="container">
+            <h1 id="res"></h1>
+        <h1 id="res1"></h1>
+        <h1 id="res2"></h1>
+        <h1 id="res3"></h1>
+        </div>
+   
+    <script>
+        class myclass{
+            method1(){
+                return "I am the one who knocks"
+            }
+            static am(){
+            return "I am the one who knocks1"
+            }
+            }
+            ob = new myclass()
+            document.getElementById("res1").innerHTML = ob.method1()
+            document.getElementById("res").innerHTML = myclass.am()
+            </script>
+            </body>

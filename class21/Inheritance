@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Javascript</title>
+    </head>
+    <body>
+        <div id="container">
+            <h1 id="res"></h1>
+        <h1 id="res1"></h1>
+        <h1 id="res2"></h1>
+        <h1 id="res3"></h1>
+        </div>
+   
+    <script>
+        class car{
+            constructor(brand){
+            this.brand = brand
+        }
+        present(){
+            return "My name is "+this.brand
+        }
+    }
+    class model extends car{
+        constructor(brand,mode){
+        super(brand)
+        this.mode = mode
+        }
+        disp(){
+            document.getElementById("res1").innerHTML = this.present() + "the model is" + this.mode
+        }
+    }
+    model1 = new model("Buggati", "2030")
+    model1.disp()
+    </script>
+    </body>
