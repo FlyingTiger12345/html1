@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Javascript</title>
+    </head>
+    <body>
+        <div id="container">
+            <h1 id="res"></h1>
+        <h1 id="res1"></h1>
+        <h1 id="res2"></h1>
+        <h1 id="res3"></h1>
+        </div>
+       <script>
+        var a = 10
+        var b = 20
+        var c = 30
+        document.getElementById("res").innerHTML = "the answer is " + eval('a+b+c *10 *10')
+        </script>ub

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Javascript</title>
+    </head>
+    <body>
+        <div id="container">
+            <h1 id="res"></h1>
+        <h1 id="res1"></h1>
+        <h1 id="res2"></h1>
+        <h1 id="res3"></h1>
+        </div>
+       
+    <script>
+        var numbers = [ 21,12,3,69,6,5,77,67]
+       function up(x){
+       return x*1000}
+       var score = numbers.map(up)
+       document.getElementById("res").innerHTML = "the new number is "+ score
+       </script>
