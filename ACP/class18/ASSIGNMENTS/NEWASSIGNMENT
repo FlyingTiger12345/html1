@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Javascript</title>
+    </head>
+    <body>
+        <div id="container">
+            <h1 id="res"></h1>
+        <h1 id="res1"></h1>
+        <h1 id="res2"></h1>
+        <h1 id="res3"></h1>
+        </div>
+       
+    <script>
+        var a = [12,67,34,41,69]
+        function maper(a){
+            return a*3
+        }
+        ar = a.map(maper)
+        document.write(a + "<br>")
+       
+        document.write(ar + "<br>")
+        function up(){
+            ar.sort(function(a,b){return a - b})
+            document.write(ar)
+        }
+        up()
+        </script>
