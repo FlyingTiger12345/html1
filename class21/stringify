@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Javascript</title>
+    </head>
+    <body>
+        <div id="container">
+            <h1 id="res"></h1>
+        <h1 id="res1"></h1>
+        <h1 id="res2"></h1>
+        <h1 id="res3"></h1>
+        </div>
+   
+    <script>
+        var wale =  {"title":"king", "age":12}
+        var jason = JSON.stringify(wale)
+    document.getElementById("res").innerHTML = "Jason before: " + jason
+        var jason2 = JSON.parse(jason)
+        document.getElementById("res1").innerHTML = "Jason after: " + jason2.title + "<br>" + jason2.age
+
+
+
+
+
+
+        </script>

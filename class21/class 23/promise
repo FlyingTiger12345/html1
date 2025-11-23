@@ -10,8 +10,16 @@
         <h1 id="res2"></h1>
         <h1 id="res3"></h1>
         </div>
+       <script> let myHouse = new Promise(function(myResolve,MyReject){
 
-student1 = new student("Jin",2011)
-document.write("the age is", student1.age())
+let x = 0
+ if (x == 0)
+ { myResolve("OK")
+
+  }
+   else MyReject("denied"){
+
+   
+} myPromise.then( function(value) {sum(5,5);}
+ function(error) {sum(error);})
 </script>
-</body>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Javascript</title>
+    </head>
+    <body>
+        <div id="container">
+            <h1 id="res"></h1>
+        <h1 id="res1"></h1>
+        <h1 id="res2"></h1>
+        <h1 id="res3"></h1>
+        </div>
+        <script>
+        document.write(1+"<br>")
+        document.write(2+"<br>")
+        async function man (a,b){
+            let responder = await a+b
+            respond(responder)
+        }
+        function respond (all){
+            document.write(all)
+        }
+        man(5,67)
+        document.write(3+"<br>")
+        document.write(4+"<br>")
+        </script>
+        
