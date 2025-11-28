@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Javascript</title>
+    </head>
+    <body>
+        number <input id="num" type= "number" min="100" max="300" required>
+        <br><br>
+        <button onclick="myfanction()">check</button>
+        <br><br>
+        <div id="result"></div>
+        <script>
+            function myfanction(){
+            var o = document.getElementById("num")
+            if (!o.checkValidity())
+            {
+                document.getElementById("result").innerHTML = o.validationMessage;
+            }
+            else{
+                 document.getElementById("result").innerHTML = "Fine"
+            }
+        }
+        </script>
