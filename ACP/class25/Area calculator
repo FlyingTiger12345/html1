@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+    </head>
+    <body>
+        Calculator
+    
+    <script>
+        var area , l, b, r, h
+        var choice = prompt("1.Rectangle \n2.Triangle \n3.Parallelogram \n4.Circle \npick")
+        if (choice == "1")
+    {
+        l = prompt("enter length")
+        b = prompt("enter breadwth")
+        area = Number(l) * Number(b) 
+        alert("the area is"+area)
+    }
+      else if (choice == "2")
+    {
+        h = prompt("enter length triangle")
+        b = prompt("enter breadwth triangle ")
+        area = Number(h) * Number(b) * 1/2
+        alert("the triangle area is"+area)
+    }
+       else if (choice == "3")
+    {
+        h = prompt("enter height parallelogram")
+        b = prompt("enter breadwth parallelogram")
+        area = Number(h) * Number(b)
+        alert("the parallelogram area is"+area)
+    }
+      else if (choice == "4")
+    {
+        r = prompt("enter radius circle")
+        area = 3.14 * r * r
+        alert("the circle area is"+area)
+    }
+    
+    </script>
+    </body>
