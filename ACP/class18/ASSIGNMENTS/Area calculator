@@ -13,7 +13,7 @@
     {
         l = prompt("enter length")
         b = prompt("enter breadwth")
-        erimeter = Number(b) + Number(l)
+        erimeter = 2 * Number(b) + Number(l)
         alert("the area is"+erimeter)
     }
       else if (choice == "2")
@@ -21,20 +21,20 @@
         h = prompt("enter length triangle")
         b = prompt("enter breadwth triangle ")
         r = prompt("enter raddian triangle ")
-        erimeter = Number(b) + Number(r)
+        erimeter = Number(h) + Number(b) + Number(r)
         alert("the triangle area is"+erimeter)
     }
        else if (choice == "3")
     {
         h = prompt("enter height parallelogram")
         b = prompt("enter breadwth parallelogram")
-        erimeter = Number(h) * Number(b)
+        erimeter = 2 * Number(h) + Number(b)
         alert("the parallelogram area is"+erimeter)
     }
       else if (choice == "4")
     {
         r = prompt("enter radius circle")
-        erimeter = 3.14 * r * r
+        erimeter = 3.14 * Math.PI * r
         alert("the circle area is"+erimeter)
     }
     
