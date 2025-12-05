@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                background-color: blue;
+                text-align: center;
+            
+            }
+            #result{
+                color: lime;
+                font-size: 55px;
+            }
+            h1{
+                color:red;
+                font-size: 100px;
+            }
+        </style>
+        <h1>palidrome</h1>
+        <title>palidrome</title>
+        <div id="result"></div>
+    </head>
+    <script>
+        function palidrome(mystring){
+        var input = mystring.replace(/[^a-z,0-9]/ig,"").toLowerCase()
+        var revinput = input.split("").reverse("").join("")
+
+        if (input == revinput){
+            document.getElementById("result").innerHTML = input + " is an palidrome"
+        }
+        else{
+            document.getElementById("result").innerHTML = input + " not palidrome"
+        }
+
+
+
+
+
+
+
+
+
+        }
+        palidrome("eye")
+    </script>
+    
