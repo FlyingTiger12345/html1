@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Random Color</title>
+</head>
+<body>
+
+<h1>Color Random</h1>
+<div id="result"></div>
+
+<button onclick="randomcolor()">Random Color</button>
+
+<script>
+function randomcolor() {
+    var letters = "0123456789ABCDEF";
+    var color = "#";
+
+    for (var i = 0; i < 6; i++) {
+        color += letters[Math.floor(Math.random() * 16)];
+    }
+
+    document.body.style.backgroundColor = color;
+}
+</script>
+
+</body>
+</html>
