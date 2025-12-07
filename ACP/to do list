@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <h1>Todo list</h1>
+        <title>palidrome</title>
+        <div id="result"></div>
+        <form name="myform" id="myform">
+        </form>
+    <input type="text" id="mytext">
+    <button>go</button>
+    <ul id ="myitem"></ul>
+
+    <script>
+        var fomr = document.getElementById("myform");
+        var tetx = document.getElementById("mytext");
+        var itme = document.getElementById("myitem");
+        fomr.addEventListener("submit",function(event){
+            event.preventDefault()
+            createitem(itme.value);
+
+        });
+        function createitem(items){
+            var temp = `<li>${items} <button onclick = "deleteitem(this)">Delete</button></li>`
+            itme.insertAdjacentElement("beforeend", temp)
+            tetx.value =""
+            tetx.focus()
+        }
+        function deleteitem(ele){
+            ele.parentElement.remove()
+        }
+    </script>
