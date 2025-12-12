@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                background-color: lightblue;
+            }
+            div{
+                text-align: center;
+                margin-top: 300px;
+                font-size: 100px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id = "sixseven"></div>
+
+    <script>
+        function showtime(){
+            var d = new Date()
+            var h = d.getFullYear()
+            var m = d.getMonth() + 1
+            var s = d.getDay() + 7
+            var session = "AM"
+
+       
+    document.getElementById("sixseven").innerHTML = m + " " + h + " " + s;
+    setTimeout(showtime, 1000)
+
+        }
+        showtime()
+        </script>
