@@ -8,9 +8,9 @@
         <title>palidrome</title>
         <div id="result"></div>
         <form name="myform" id="myform">
-        </form>
     <input type="text" id="mytext">
     <button>go</button>
+    </form>
     <ul id ="myitem"></ul>
 
     <script>
@@ -19,12 +19,12 @@
         var itme = document.getElementById("myitem");
         fomr.addEventListener("submit",function(event){
             event.preventDefault()
-            createitem(itme.value);
+            createitem(tetx.value);
 
         });
         function createitem(items){
             var temp = `<li>${items} <button onclick = "deleteitem(this)">Delete</button></li>`
-            itme.insertAdjacentElement("beforeend", temp)
+            itme.insertAdjacentHTML("beforeend", temp)
             tetx.value =""
             tetx.focus()
         }
