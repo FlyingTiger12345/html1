@@ -19,8 +19,8 @@
         function showtime(){
             var d = new Date()
             var h = d.getFullYear()
-            var m = d.getMonth() + 1
-            var s = d.getDay() + 7
+            var m = d.getMonth() + 3
+            var s = d.getDay() + 
             var session = "AM"
 
        

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+           text-align: center;
+            }
+        </style>
+        <title>Javascript</title>
+    </head>
+    <body>
+       <span id = seconds>00</span>:<span id = "milliseconds">00</span>
+       <button id = "Start">Start</button>
+       <button id = "Stop">Stop</button>
+       <button id = "Reset">Reset</button>
+    </body>
+    <script>
+        window.onload = function(){
+            var seconds = "00"
+            var milliseconds = "00"
+            var appendmilliseconds = document.getElementById("milliseconds")
+            var appendseconds = document.getElementById("seconds")
+            var buttonstart = document.getElementById("Start")
+            var buttonstop = document.getElementById("Stop")
+            var buttonreset = document.getElementById("Reset")
+            var interval
+            buttonstart.onclick = function(){
+                clearInterval(interval)
+                interval = setInterval(starttimer,10)
+
+            }
+            buttonstop.onclick = function(){
+                clearInterval(interval)
+            }
+            buttonreset.onclick = function(){
+                seconds = "00"
+                milliseconds = "00"
+                appendmilliseconds.innerHTML = milliseconds
+                appendseconds.innerHTML = seconds
+            }
+            function starttimer(){
+                milliseconds++
+                if(milliseconds < 9){
+                    appendmilliseconds.innerHTML = "0"+milliseconds
+                }
+                if(milliseconds > 9){
+                    appendmilliseconds.innerHTML = milliseconds
+                }
+                if(milliseconds > 99){
+                    seconds++
+                appendseconds.innerHTML = "0" + seconds
+                milliseconds = 0
+                appendmilliseconds.innerhtml = "0" + milliseconds
+            }
+            if (seconds > 99){
+                appendseconds.innerHTML = seconds
+            }
+        }
+    }
+        
+    </script>
