@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dice
+
+        </title>
+        <style>
+            div{
+                font-size: 677px;
+                color: aqua;
+            }
+
+        </style>
+    </head>
+    <body>
+<h1>DIce</h1>
+<div id = "dice" onclick = "startstop()"></div>
+    </body>
+
+<script>
+    var diceimg = ['&#9856;', '&#9857;','&#9858;','&#9859;', '&#9860;', '&#9861;']
+    var stopped = true
+    var t;
+    function change(){
+        var rmd = Math.floor(Math.random()*6)
+        dice.InnerHTML = diceimg[rmd]
+
+    }
+    function startstop(){
+        if(stopped){
+            stopped = false
+            t = setInterval(change,10)
+        }
+        else{
+            clearInterval(t)
+            stopped=true
+        }
+
+
+    }
+    window.onload = function(){
+        document.write("hello")
+        var dice = document.getElementById("dice")
+        dice.InnerHTML = diceimg[0]
+        startstop()
+    }
+</script>
