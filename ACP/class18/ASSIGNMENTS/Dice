@@ -22,7 +22,7 @@
     var stopped = true
     var t;
     function change(){
-        var rmd = Math.floor(Math.random()*100)
+        var rmd = Math.floor(Math.random()*10000000)
         dice.innerHTML = rmd
 
     }
